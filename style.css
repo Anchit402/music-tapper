@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading h1 {
+    padding: 50px;
+}
+.middle {
+    text-align: center;
+}
+#pads #pad1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    flex: 1;
+}
+#pads #pad2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    flex: 1;
+}
+#pads #pad3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    flex: 1;
+}
+#pads #pad4 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    flex: 1;
+}
+#pads #pad5 {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    flex: 1;
+}
+#pads #pad6 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    flex: 1;
+}
+#pads {
+    display: flex;
+    width: 100%;
+    margin-top:300px;
+}
+@media only screen and (max-width: 1024px) {
+    h2::after {
+        content: " This is probably not a laptop view, so, you can also click";
+    }
+}
+
+
+
